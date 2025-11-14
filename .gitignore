@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# PyInstaller build folders
+build/
+dist/
+
+# Inno Setup output
+Output/
+
+# Temporary files
+*.log
+
+# Word dataset (rebuild automatically)
+data/words.db
