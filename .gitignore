@@ -12,6 +12,7 @@ dist/
 
 # Inno Setup output
 Output/
+*.iss
 
 # Temporary files
 *.log

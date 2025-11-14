@@ -1,0 +1,5 @@
+pygame==2.6.1
+nltk==3.9.1
+pyttsx3==2.90
+regex==2024.9.11
+tqdm==4.66.5
