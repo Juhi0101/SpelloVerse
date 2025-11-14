@@ -72,7 +72,7 @@ cd Spelloverse
 ```
 
 ### ✔ 2. Create a virtual environment (optional but recommended)
-``bash
+```bash
 python -m venv venv
 venv\Scripts\activate
 ```
@@ -117,7 +117,7 @@ dist/main/main.exe
 ---
 
 ## 🗂 Folder Structure (Development Version)
-
+```bash
 SpelloVerse/
 ├── assets/ # images, bg, sfx
 ├── systems/ # db & audio utilities
@@ -127,7 +127,7 @@ SpelloVerse/
 ├── game_icon.ico
 ├── main.py
 └── README.md
-
+```
 
 ---
 
