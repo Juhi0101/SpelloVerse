@@ -69,19 +69,23 @@ Features:
 ```bash
 git clone https://github.com/<your-username>/Spelloverse.git
 cd Spelloverse
+```
 
 ### ✔ 2. Create a virtual environment (optional but recommended)
 ``bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 ###✔ 3. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### ✔ 4. Run the game
 ```bash
 python main.py
+```
 
 The game will automatically:
 - Generate the word dataset (only on first run)
@@ -104,12 +108,12 @@ pyinstaller --noconsole --windowed ^
 --add-data "modes;modes" ^
 --add-data "data;data" ^
 main.py
-
+```
 
 This produces:
 ```bash
 dist/main/main.exe
-
+```
 ---
 
 ## 🗂 Folder Structure (Development Version)
