@@ -77,7 +77,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-###✔ 3. Install dependencies
+### ✔ 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -116,7 +116,7 @@ dist/main/main.exe
 ```
 ---
 
-## 🗂 Folder Structure (Development Version)
+## 🗂 Folder Structure
 ```bash
 SpelloVerse/
 ├── assets/ # images, bg, sfx
