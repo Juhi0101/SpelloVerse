@@ -21,7 +21,7 @@ FPS = 30
 WINDOWWIDTH, WINDOWHEIGHT = 900, 820
 BOARDWIDTH, BOARDHEIGHT = 8, 8
 GEMIMAGESIZE = 64
-NUMGEMIMAGES = 7
+NUMGEMIMAGES = 6
 NUMMATCHSOUNDS = 6
 MOVERATE = 25
 DEDUCTSPEED = 0.8
@@ -422,7 +422,7 @@ def showWordOverGems(board, gemSet, word, audio_path=None,
             letter = font.render(ch, True, (255, 255, 255))
 
             # glow: render blurred layers
-            glow = font.render(ch, True, (255, 200, 200))
+            glow = font.render(ch, True, (10, 20, 50))
             for ox, oy in [(-2,0),(2,0),(0,-2),(0,2)]:
                 DISPLAYSURF.blit(glow, glow.get_rect(center=(BOARDRECTS[x][y].centerx+ox,
                                                               BOARDRECTS[x][y].centery+oy)))
